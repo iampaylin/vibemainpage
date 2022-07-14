@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trending</title>
+
+    <link rel="stylesheet" href="trending.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Varela+Round&display=swap" rel="stylesheet">
+
+    <script src="trending.js"></script>
+
+</head>
+<body>
+    <header onmouseover="offMouseOver()">
+        <h1 class="title">V I B E</h1>
+        <div class="perfil_inicial">
+            <img src="imagens/gatito.jpeg" alt="" width="50px" height="50px" class="perfil_header">
+            <p class="usuario">Nickname</p>
+        </div>
+    </header>
+    <main>
+        
+        <!-- Audios -->
+            <audio id="one" loop="loop">
+                <source src="audios/Glimpse of Us.mp3" type="audio/mpeg">
+            </audio>
+            <audio id="two" loop="loop">
+                <source src="audios/mytp.mp3" type="audio/mpeg">
+            </audio>
+            <audio id="three" loop="loop">
+                <source src="audios/shyaway_1.mp3" type="audio/mpeg">
+            </audio>
+            <audio id="four" loop="loop">
+                <source src="audios/themotto.mp3" type="audio/mpeg">
+            </audio>
+            <audio id="five" loop="loop">
+                <source src="audios/Potion.mp3" type="audio/mpeg">
+            </audio>
+        <!-- Audios -->
+
+        <table>
+            <tr onmouseover="oneMouseOver()" onmouseout="offMouseOver()" >
+                <td class="position">1</td>
+                <td>
+                    <div class="center_table">
+                        <img src="imagens/glimpseofus.jpg" alt="Capa da música" class="capa"><p>Glimpse of Us</p>
+                    </div>
+                </td>
+                <td class="artista">Joji</td>
+            </tr>
+    
+            <tr onmouseover="twoMouseOver()" onmouseout="offMouseOver()">
+                <td class="position">2</td>
+                <td>
+                    <div class="center_table">
+                        <img src="imagens/mytp.jpg" alt="Capa da música" class="capa"><p>Maybe You're The Problem</p>
+                    </div>
+                </td>
+                <td class="artista">Ava Max</td>
+            </tr>
+    
+            <tr onmouseover="threeMouseOver()" onmouseout="offMouseOver()">
+                <td class="position">3</td>
+                <td>
+                    <div class="center_table">
+                        <img src="imagens/shyaway.jpg" alt="Capa da música" class="capa"><p>Shy Away</p>
+                    </div>
+                </td>
+                <td class="artista">Twenty One Pilots</td>
+            </tr>
+    
+            <tr onmouseover="fourMouseOver()" onmouseout="offMouseOver()">
+                <td class="position">4</td>
+                <td>
+                    <div class="center_table">
+                        <img src="imagens/themotto.jpg" alt="Capa da música" class="capa"><p>The Motto</p>
+                    </div>
+                </td>
+                <td class="artista">Tiesto</td>
+            </tr>
+    
+            <tr onmouseover="fiveMouseOver()" onmouseout="offMouseOver()">
+                <td class="position">5</td>
+                <td>
+                    <div class="center_table">
+                        <img src="imagens/potions.jpg" alt="Capa da música" class="capa"><p>Potions</p>
+                    </div>
+                </td>
+                <td class="artista">Calvin Harris</td>
+            </tr>
+        </table>
+
+        <section class="secao">
+            <div class="profile">
+                <div class="header_profile"><img src="imagens/gatito.jpeg" alt="" class="imagem_header_profile"> <p>Nickname</p> </div>
+                <div class="baixo_perfil">
+                    <div class="biografia"><p>Sobre Mim</p><p>18y</p><p>I'm on the highway to hell</p></div>
+                    <div class="favorite"></div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <section class="detalhe">
+        <div class="gifs">
+            <div class="operaria1">
+                <p class="teste">Dawn FM</p>
+            </div>
+            <div class="operaria2">
+                <p class="teste">Life Support</p>
+            </div>
+            <div class="operaria3">
+                <p class="teste">Sour</p>
+            </div>
+        </div>
+    </section>
+
+    <div class="caixa">
+        <h1 class="trending">Suas Favoritas</h1>
+        <div class="caixa1">
+            <img src="imagens/highwaytohell.jpg" alt="Cover Art" class="album">
+            <p class="caixa_texto">Highway to Hell</p>
+        </div>
+        <div class="caixa2">
+            <img src="imagens/comeasyouare.jpg" alt="Cover Art" class="album">
+            <p class="caixa_texto">Come As You Are</p>
+        </div>
+        <div class="caixa3">
+            <img src="imagens/onekiss.png" alt="Cover Art" class="album">
+            <p class="caixa_texto">One Kiss</p>
+        </div>
+    </div>
+
+    <footer>
+        <div class="pagina_footer">
+            <div class="pag1">
+                <p><a href="">Texto 1</a></p>
+                <p><a href="">Texto 2</a></p>
+                <p><a href="">Texto 3</a></p>
+            </div>
+            <div class="pag3">
+                <h1 class="title"><a>V I B E</a></h1>
+            </div>
+        </div>
+    </footer>
+
+    <script src="trending.js"></script>
+
+</body>
+</html>
